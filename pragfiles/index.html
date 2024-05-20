@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pragmatic Hosting - Coming Soon</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .countdown {
+            font-size: 40px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pragmatic Hosting</h1>
+    <p>Hang tight! We're working hard to improve our website and will be launching soon. Estimated ETA:</p>
+    <div id="countdown" class="countdown"></div>
+    <script>
+
+        var countDownDate = new Date("Apr 31, 2024 00:00:00").getTime();
+
+        var countdownfunction = setInterval(function() {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("countdown").innerHTML = "WE ARE LIVE NOW";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

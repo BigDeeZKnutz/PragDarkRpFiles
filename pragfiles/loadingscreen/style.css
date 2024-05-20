@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 72px;
+    transform: translate(-50%, -50%);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    text-align: center;
+}
+p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -10%);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white;
+    text-align: center;
+}

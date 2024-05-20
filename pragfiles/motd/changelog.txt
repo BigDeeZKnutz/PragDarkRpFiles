@@ -1,0 +1,61 @@
+Pragmatic Servers DarkRP Changelog
+Key:
+
+[+] Something has been added.
+[/] Something has been changed.
+[-] Something has been removed.
+[!] Known Issue to be fixed.
+
+04/03/2024 18:47 (Weetahix)
+[/] Server now running on new containerised software. Hardware upgrade complete and some infrastructure changes. (Weetahix)
+[/] MySQL DB Imported. (Dave)
+[/] Data Copied. (Dave)
+[/] Server addon migration (Dave)
+
+21/02/2024 15:46 (Dave)
+[/] NLR Zones: NLR zones will no longer be created during purge (existing ones remain).
+
+11/02/2024 21:36 (Dave)
+[/] Scoreboard admin menu fixed (added a check for usergroup & fixed spam when players leave with menus and/or scoreboard open).
+[/] M9K Explosives fixed.
+[-] Removed Hold’em
+[/] Increased limits of kiosks.
+[+] Backups: All server data now backed up daily (off-site coming soon).
+
+11/02/2024 16:16 (Dave)
+[/] Tazer wModel issue fixed.
+
+06/02/2024 23:07 (Dave)
+[/] Cocaine fixed.
+[/] Bartender fixed.
+[/] Weet’s Raid Script now has a distance check on the door.
+[/] More teleport locations added to Weet’s Teleporter.
+[/] Scoreboard admin menu added (made by Weetahix, the absolute sledge the ledge).
+[/] Scoreboard altered (text alignment needs tweaking).
+[-] APG removed and replaced with gProtect.
+[/] In-game reports changed from /r [message] to /ticket [message].
+[/] HUD fixed (old news).
+
+22/01/2024 06:20 (Dave)
+[!] HUD broken (the web host that hosts images for background, text, etc., is down, but it still works for now).
+[/] Gluapack fixed.
+[/] Cars fixed.
+[/] Casino kiosk fixed.
+[/] DarkRP Votes fixed.
+
+19/01/2024 16:54 (Dave)
+[-] Unused workshops removed from resource.lua.
+[/] Glualoader fixed.
+[/] FastDL fixed.
+[/] Votes (broken, working on a fix).
+[/] Gang SQL data issue fixed.
+[/] Many addons updated to their latest version.
+[/] Reverted to old UI (Much better client performance).
+
+29/12/2023 06:59 (Dave)
+[/] Server moved to port 27050; it will not show up in history anymore. You can manually connect with connect 195.201.11.172:27050 in console or hit “internet,” refresh, wait for a few minutes, click DarkRP, and search for “Pragmatic.”
+
+28/07/2023 16:48 (Dave)
+[-] Computer removed from f4 menu.
+[/] Eprotect access granted to headadmin.
+[/] Weed price buffed and total entities reduced.
